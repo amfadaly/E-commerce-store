@@ -65,7 +65,7 @@ const OffcanvasCart = () => {
             </div>
           ) : (
             <div className="text-center my-5">
-              <img src="/assets/cart.png" alt="" className="w-25" />
+             <h5 className="text-danger">Your shopping cart is empty.</h5>
             </div>
           )}
         </div>
